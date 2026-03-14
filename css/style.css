@@ -1,0 +1,82 @@
+.container {
+  max-width: 960px;
+}
+.hero-img {
+}
+
+.hero-img img {
+}
+
+.service-button-continer img {
+  padding: 5px 5px;
+}
+
+.test {
+  width: 280px;
+  height: 280px;
+  background-color: red;
+  position: relative;
+  border-radius: 5px;
+}
+
+.service-text-container {
+  position: relative;
+  margin-top: 10px;
+  padding: 18px 24px;
+}
+
+.service-text-ornament {
+  position: absolute;
+  width: 22px;
+  height: 41px;
+  background-image: url("../img/button_ornament.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.service-text-ornament--top-left {
+  top: 0;
+  left: 0;
+}
+
+.service-text-ornament--top-right {
+  top: 0;
+  right: 0;
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+
+.service-text-ornament--bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.service-text-ornament--bottom-right {
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+
+.service-title-text {
+  font-family: "Cormorant Garamond";
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+
+.service-description-text {
+  display: block;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.2;
+}
